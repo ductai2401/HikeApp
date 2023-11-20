@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E7E7"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textEditTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="EDIT HIKE"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextHikeNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textEditTrip"
+        android:layout_marginTop="1dp"
+        android:hint="Enter name of hike"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextLocationEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextHikeNameEdit"
+        android:layout_marginTop="1dp"
+        android:ems="5"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#616161" />
+
+    <EditText
+        android:id="@+id/editTextLengthEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextHikeNameEdit"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/editTextLocationEdit"
+        android:ems="5"
+        android:hint="Length"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="HardcodedText"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDescriptionEdit"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="10dp"
+        android:text="SAVE" />
+
+    <Button
+        android:id="@+id/buttonCancelEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDescriptionEdit"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/buttonEdit"
+        android:text="CANCEL" />
+
+    <EditText
+        android:id="@+id/editTextTripDateStartEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLocationEdit"
+        android:layout_marginTop="1dp"
+        android:hint="Start date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextTripDateEndEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLocationEdit"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/editTextTripDateStartEdit"
+        android:hint="End date"
+        android:minHeight="48dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDifficultyEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDifficultyEdit"
+        android:layout_marginTop="1dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonHardEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:text="HARD" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMediumEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="6"
+            android:text="MEDIUM" />
+
+        <RadioButton
+            android:id="@+id/radioButtonEasyEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/radioButton7"
+            android:ems="5"
+            android:text="EASY" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewParkAvailableEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupDifficultyEdit"
+        android:layout_marginTop="1dp"
+        android:text="Park available"
+        android:textColor="#616161" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupParkAvailableEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewParkAvailableEdit"
+        android:layout_marginTop="1dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonYesEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:text="YES"
+            android:textColor="#616161" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNoEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:text="NO" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextDescriptionEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupParkAvailableEdit"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textViewDifficultyEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTripDateStartEdit"
+        android:layout_marginTop="1dp"
+        android:text="Level of difficulty" />
+
+</RelativeLayout>

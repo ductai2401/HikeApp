@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageSearch"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="70dp"
+        android:layout_height="97dp"
+        android:src="@drawable/search" />
+
+    <LinearLayout
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imageSearch"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textviewNameSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textviewDateStartSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Date Start"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textviewDescriptionSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+    android:background="#E8E7E7"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textAddHike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="NEW HIKE"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextHikeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAddHike"
+        android:layout_marginTop="1dp"
+        android:hint="Enter name of hike" />
+
+
+    <EditText
+        android:id="@+id/editTextHikeDateStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLocation"
+        android:layout_marginTop="5dp"
+        android:hint="Start date" />
+
+    <EditText
+        android:id="@+id/editTextHikeDateEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLocation"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/editTextHikeDateStart"
+        android:hint="End date" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDescription"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="10dp"
+        android:text="SAVE" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDescription"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/buttonSave"
+        android:text="CANCEL" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupParkAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewParkAvailable"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:text="YES" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/radioButton7"
+            android:ems="5"
+            android:text="NO" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupDifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDifficultyAdd"
+        android:layout_marginTop="1dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonHard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:text="HARD" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="6"
+            android:text="MEDIUM" />
+
+        <RadioButton
+            android:id="@+id/radioButtonEasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/radioButton7"
+            android:ems="5"
+            android:text="EASY" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextHikeName"
+        android:layout_marginTop="5dp"
+        android:ems="5"
+        android:hint="Location"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextHikeName"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/editTextLocation"
+        android:ems="5"
+        android:hint="Length"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupParkAvailable"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewParkAvailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupDifficulty"
+        android:layout_marginTop="1dp"
+        android:text="Parking Available" />
+
+    <TextView
+        android:id="@+id/textViewDifficultyAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextHikeDateStart"
+        android:layout_marginTop="1dp"
+        android:text="Level of difficulty" />
+
+
+
+</RelativeLayout>

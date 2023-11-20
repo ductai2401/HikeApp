@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.137" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.137" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/drawable/rounded_corner.xml" value="0.137" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/layout/activity_hike_detail.xml" value="0.1" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/layout/activity_search_hike.xml" value="0.27447916666666666" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/layout/dialog_add_hike.xml" value="0.1334853090172239" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/layout/dialog_add_observation.xml" value="0.27447916666666666" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/layout/dialog_edit_hike.xml" value="0.27447916666666666" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/layout/item_search.xml" value="0.25226449275362317" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/layout/view_all_hike.xml" value="0.264" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/layout/view_observation.xml" value="0.27447916666666666" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/menu/add_trip.xml" value="0.27447916666666666" />
+        <entry key="..\:/HikerApp-Mobile App/app/src/main/res/menu/search_trip.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/activity_hike_detail.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/activity_search_hike.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/activity_search_trip.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/activity_trip_detail.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/dialog_add_cost.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/dialog_add_hike.xml" value="0.264" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/dialog_add_observation.xml" value="0.1453804347826087" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/dialog_add_trip.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/dialog_edit_trip.xml" value="0.25" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/item_search.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/view_all_trip.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/view_cost.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/layout/view_observation.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/menu/add_trip.xml" value="0.27447916666666666" />
+        <entry key="..\:/ManagerExpense-Mobile App/app/src/main/res/menu/search_trip.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1765" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/drawable/list_image.xml" value="0.1845" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/drawable/rounded_corner.xml" value="0.133" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/activity_main.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/activity_search_trip.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/activity_trip_detail.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/dialog_add_cost.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/dialog_add_trip.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/dialog_edit.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/dialog_edit_trip.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/dialog_search_trip.xml" value="0.253125" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/item_search.xml" value="0.253125" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/new_cost.xml" value="0.253125" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/view_all_trip.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/view_cost.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/layout/view_trip_detail.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/menu/add_trip.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/Downloads/1786/ManagerExpense/app/src/main/res/menu/search_trip.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
